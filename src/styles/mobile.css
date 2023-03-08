@@ -1,0 +1,39 @@
+.menu-nar {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-style {
+    display: inline;
+}
+
+.name {
+    font-family: Babylonica, cursive;
+    font-size: 4rem;
+    font-size: xx-large;
+    display: inline;
+    margin-left: 1.5rem;
+}
+
+.signature {
+    display: inline;
+}
+
+.menu-option {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 3rem;
+    margin-right: 5rem;
+    padding: 2px;
+}
+
+a:link,
+a:visited {
+    color: rgb(16, 102, 50);
+
+}
+
+a:hover {
+    color: rgb(32, 110, 65);
+}

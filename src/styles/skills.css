@@ -1,0 +1,17 @@
+.About-description {
+    margin-top: 0px;
+}
+
+.Technical-skills p {
+    background-color: aqua;
+    width: 0rem;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.Technical-skills {
+    margin-left: 20rem;
+    line-height: unset;
+}

@@ -1,0 +1,64 @@
+.Home-developer {
+    display: block;
+    overflow: hidden;
+}
+
+.developer {
+    margin-left: 60rem;
+    padding-top: 8rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.discription {
+    text-shadow: 1px 1px black;
+    letter-spacing: 2px;
+    font-size: xx-large;
+    overflow: hidden;
+}
+
+h4 {
+    padding: 2px 3px 2px 3px;
+
+}
+
+img {
+    width: 1000px;
+    margin-left: -60px;
+    display: inline;
+    float: left;
+}
+
+.image {
+    display: inline;
+}
+
+.self-description {
+    clear: both;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.right-image {
+    float: right;
+    height: 700px;
+    width: 800px;
+    overflow: hidden;
+}
+
+.About {
+    margin-top: 13rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+
+.About-description {
+    margin-top: 6rem;
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    word-spacing: 5px;
+    overflow: hidden;
+}

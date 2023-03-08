@@ -1,0 +1,24 @@
+.App-Footer {
+    background-color: rgb(50, 49, 49);
+    margin-top: 0px;
+    padding-top: 2rem;
+    height: 120px;
+    overflow: hidden;
+}
+
+.Icons {
+    font-size: 32px;
+    margin-left: 1.1rem;
+    margin-right: 1.1rem;
+    overflow: hidden;
+}
+
+.App-Footer h3 {
+    color: rgb(240, 231, 231);
+    text-decoration: none;
+    text-align: center;
+}
+
+.App-Footer .footer span {
+    color: red;
+}
