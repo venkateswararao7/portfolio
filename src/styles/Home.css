@@ -39,11 +39,13 @@ img {
     overflow: hidden;
 }
 
-.right-image {
+
+
+.self-description .right-image {
     float: right;
-    height: 700px;
-    width: 800px;
     overflow: hidden;
+    height: 1000px;
+    width: 1000px;
 }
 
 .About {

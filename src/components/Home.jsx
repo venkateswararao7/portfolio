@@ -1,6 +1,7 @@
 import React from "react";
 import MyImage from "./MyImage";
 import Image from "../images/image2.png";
+
 import CodeImage from "../images/image1.png";
 import "../styles/Home.css";
 
@@ -21,7 +22,10 @@ function Home() {
 
             </div>
             <div className="self-description">
-                <img src={CodeImage} className="right-image" alt="Coding-person" draggable="false" onContextMenu="return false;" />
+                <div className="photo">
+                    <img src={CodeImage} className="right-image" alt="Coding-person" draggable="false" />
+
+                </div>
                 <div className="About">
                     <p className="About-description">
                         I have experience working with three programming languages: C, Python, and Java. In C, I have experience with low-level programming, including memory management and pointer manipulation, and I am comfortable working with data structures and algorithms.

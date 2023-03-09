@@ -14,12 +14,17 @@
 }
 
 .About {
-    margin-top: 4rem;
+    margin-top: 6rem;
     font-size: medium;
     padding: 8px;
     word-spacing: 5px;
 
 
+}
+
+.self-description .right-image {
+    width: 500px;
+    height: 400px;
 }
 
 h2 {
