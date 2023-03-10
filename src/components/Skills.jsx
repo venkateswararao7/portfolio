@@ -39,7 +39,7 @@ function Skills() {
                             <p>Python</p>
                             <p>Java</p>
                             <p>HTML,CSS,JavaScript</p>
-                            <p>Reaactjs</p>
+                            <p>Reactjs</p>
                             <p>Expressjs</p>
                         </div>
                     </p>
