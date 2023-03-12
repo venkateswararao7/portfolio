@@ -6,7 +6,7 @@ function Menu() {
         return (
                 <div className="nav-bar">
                         <div className="menu-bar">
-
+                                <Venkatesh />
                                 <ul className="menu">
                                         <li className="menu-item">
                                                 <Link to="Home"
@@ -49,9 +49,10 @@ function Menu() {
                                 </ul>
 
                         </div>
-                        <div className="venkatesh-style">
-                                <Venkatesh />
+                        <div className="empty">
+                                <h2>hello</h2>
                         </div>
+
                 </div>
 
         );

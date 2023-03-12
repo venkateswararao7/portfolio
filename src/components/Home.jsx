@@ -9,9 +9,9 @@ import "../styles/Home.css";
 function Home() {
     return (
         <div id="Home">
-            <div className="Home-developer">
-                <div className="image">
-                    <MyImage image={Image} value="coding" />
+            <div className="Home-developer" >
+                <div className="image" >
+                    <MyImage image={Image} value="coding" sty="100px" />
                 </div>
                 <div className="developer">
                     <h1>Software Developer</h1>
