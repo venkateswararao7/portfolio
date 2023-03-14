@@ -1,57 +1,79 @@
-.nav-bar {
-  position: fixed;
-  background-color: rgb(255, 255, 255);
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 100px;
-  left: 0px;
-  right: 0px;
+@media screen and (min-width:1200px) {
+  .toggle-bar {
+    display: none;
+  }
+
+  .nav-bar {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    left: 0px;
+    right: 0px;
+  }
+
+  .menu-bar {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    left: 0px;
+    right: 0px;
+    font-size: large;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .menu {
+    padding: 1.5rem;
+  }
+
+  .menu-item {
+    display: inline;
+    padding: 1rem;
+    border-radius: 100%;
+    margin: 1rem;
+  }
+
+  .menu-item:hover {
+    background-color: rgb(218, 209, 209);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+
+  .menu-bar a:link,
+  .menu-bar a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .menu-bar a:hover {
+    color: rgb(7, 8, 8);
+    cursor: pointer;
+  }
+
+  .empty {
+    width: 20px;
+    height: 10px;
+    background-color: aqua;
+  }
+
 }
 
-.menu-bar {
-  display: flex;
-  justify-content: center;
+@media screen and (max-width:1199px) {
+  .menu {
+    display: none;
+  }
 
-  font-weight: bolder;
-  left: 0px;
-  right: 0px;
-  font-size: large;
-  position: fixed;
+  .toggle-bar {
+    display: inline;
 
-  background-color: rgb(255, 255, 255);
-}
+  }
 
-.menu {
-  padding: 1.5rem;
-}
-
-.menu-item {
-  display: inline;
-  padding: 1rem;
-  border-radius: 100%;
-  margin: 1rem;
-}
-
-.menu-item:hover {
-  background-color: rgb(218, 209, 209);
-  color: rgb(0, 0, 0);
-  cursor: pointer;
-}
-
-.menu-bar a:link,
-.menu-bar a:visited {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.menu-bar a:hover {
-  color: rgb(7, 8, 8);
-  cursor: pointer;
-}
-
-.empty {
-  width: 20px;
-  height: 10px;
-  background-color: aqua;
+  .nav-bar {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    margin-left: 2rem;
+  }
 }

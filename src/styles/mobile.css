@@ -11,7 +11,7 @@
 .name {
     font-family: Babylonica, cursive;
     font-size: 4rem;
-    font-size: xx-large;
+    font-size: x-large;
     display: inline;
     margin-left: 1.5rem;
 }
@@ -21,19 +21,13 @@
 }
 
 .menu-option {
-    display: inline-block;
+    /* display: inline-block; */
     margin-bottom: 20px;
     margin-top: 3rem;
     margin-right: 5rem;
     padding: 2px;
 }
 
-a:link,
-a:visited {
-    color: rgb(16, 102, 50);
-
-}
-
-a:hover {
-    color: rgb(32, 110, 65);
+.monile-menu-options {
+    background-color: aqua;
 }

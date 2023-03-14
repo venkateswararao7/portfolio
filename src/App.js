@@ -11,12 +11,8 @@ import Certification from "./components/Cetifications";
 function App() {
   return (
     <div className="App">
-      <div className="laptop-menu">
-        <Menu />
-      </div>
-      <div className="mobile-menu">
-        <Mobile />
-      </div>
+
+      <Menu />
       <Home />
       <Education />
       <Certification />
